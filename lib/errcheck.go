@@ -15,7 +15,7 @@ import (
 	"os"
 	"regexp"
 
-	"code.google.com/p/go.tools/go/types"
+	"golang.org/x/tools/go/types"
 	"honnef.co/go/importer"
 )
 
