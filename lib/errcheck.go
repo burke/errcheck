@@ -114,7 +114,7 @@ func typeCheck(p package_) (typedPackage, error) {
 	}
 	imp := importer.New()
 	// Preliminary cgo support.
-	// https://github.com/kisielk/errcheck/issues/16#issuecomment-26436917
+	// https://github.com/burke/errcheck/issues/16#issuecomment-26436917
 	imp.Config = importer.Config{UseGcFallback: true}
 	context := types.Config{Import: imp.Import}
 

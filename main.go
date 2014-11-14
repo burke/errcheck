@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/kisielk/errcheck/lib"
+	"github.com/burke/errcheck/lib"
 	"github.com/kisielk/gotool"
 	"os"
 	"regexp"
